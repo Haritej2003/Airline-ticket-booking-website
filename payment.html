@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Billdesk</title>
+  <script src="payment.js"></script>
+  <link rel="stylesheet" href="payment.css">
+</head>
+<body onload="onLoading()">
+  <header>
+    <h1> B i l l D e s k</h1>
+  </header>
+  <main>
+    <form id="paymentForm">
+      <div class="b">
+      <div class="one">
+      <label for="numberOfMembers">Number of Passengers:</label>
+      <input type="number" id="numberOfMembers" name="numberOfMembers" min="1"  required>
+      <br>
+
+      <label for="cardHolderName">Cardholder Name:</label>
+      <input type="text" id="cardHolderName" name="cardHolderName" required>
+
+      <label for="from">From:</label>
+      <input type="text" id="from" name="from" placeholder="" readonly required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="one">
+        <div class="two">
+          
+        <label for="t">
+          <input type="radio"  name="t" value="faculty" onchange="checking()"checked> Faculty
+          </label>
+          <label for="t">
+          <input type="radio" name="t" value="student" onchange="checking()"> Student
+          </label><br>
+      <label for="flightNumber">FlightNumber:</label>
+      <input type="text" id="flightNumber" name="flightNumber" readonly >
+<br>
+      <label for="to">TO:</label>
+      <input type="text" id="to" name="to" readonly required>
+      <br>
+      <label for="text">Seat Numbers:</label>
+      <input type="text" id="text" name="coupon" readonly>
+      
+      </div> 
+      </div>
+      </div>  
+      <label for="text1">Total Amount:</label>
+      <input type="text" id="text1" name="Price"  readonly>
+
+      <input type="submit" value="Make Payment" onclick="checkAndConfirm()">
+    </form>
+  </main>
+  
+</body>
+</html>

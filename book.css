@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    padding:0;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    width:100vw;
+    height:10rem;
+    text-align: center;
+}
+.heading h1{
+    color:black;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    padding: 20px;
+    background: teal;
+    margin:auto;
+    width:70%;
+    border-radius: 10px;
+   
+}
+.main .flight-details form{
+    display: flex;
+    justify-content: space-between;
+   width:100%;
+   
+
+}
+.main .flight-details input{
+    background: teal;
+    outline: none;
+    border: none;
+}
+.main .flights{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    background: white;
+    border-radius: 5px;
+}
+.main  .flight-details input{
+    font-weight: bolder;
+    font-size: larger;
+}
+.main .flights span{
+    width: fit-content;
+}
+.main .flights span input{
+    background: transparent;
+    outline: none;
+    border: none;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    
+}
+.main .flights span #input-1,#input-3{
+   width:5.8rem;
+}
+.main .flights span #input-2,#input-4{
+    width:3rem;
+}
+.main .flights span #input-5
+{
+    width:5.5rem;
+}
+.main .flights span #input-6
+{
+    width:3rem;
+}
+.main .flights span #input-7
+{
+    width:6.5rem;
+}
+.main .flights span #input-8,#input-9
+{
+    width:3rem;
+    margin-right: 3px;
+}
+.main .flights #time-place #flight-name{
+    margin:auto;
+    padding-left:35%;
+}
+.hiphen{
+    font-weight:bolder;
+    font-size:30px;
+}
+#button1{
+    font-size: larger;
+    font-weight: bold;
+    background: white;
+    cursor: pointer;
+    margin-right: 3px;
+}
+#button1:hover{
+    background: teal;
+    color:white;
+   
+}
+
+

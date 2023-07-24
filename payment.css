@@ -1,0 +1,60 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #b5838d;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    form {
+      max-width: 500px;
+      margin-left: 500px;
+      margin-top: 100px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"], input[type="email"], input[type="number"], input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+      background-color: #e29381;
+      color: black;
+      font-size:17px;
+      font-weight:500;
+      cursor: pointer;
+      
+    }
+   
+    .b{
+      display: flex;
+      flex-direction: row;
+    }
+    .one{
+      display: inline-block;
+      width: fit-content;
+    }
+    .two{
+      display: inline-block;
+      margin-left:100px;
+      margin-top:5px;      
+    }
+    #text1{
+      width:95%;
+    }
